@@ -1,0 +1,93 @@
+[
+    {
+        "name": "A.ROOT-SERVERS.NET",
+        "asn": 7342,
+        "ipv4": "198.41.0.4",
+        "ipv6": "2001:503:ba3e::2:30",
+        "category": "root"
+    },
+    {
+        "name": "B.ROOT-SERVERS.NET",
+        "asn": 7342,
+        "ipv4": "170.247.170.2",
+        "ipv6": "2801:1b8:10::b",
+        "category": "root"
+    },
+    {
+        "name": "C.ROOT-SERVERS.NET",
+        "asn": 7342,
+        "ipv4": "192.33.4.12",
+        "ipv6": "2001:500:2::C",
+        "category": "root"
+    },
+    {
+        "name": "D.ROOT-SERVERS.NET",
+        "asn": 7342,
+        "ipv4": "199.7.91.13",
+        "ipv6": "2001:500:2D::D",
+        "category": "root"
+    },
+    {
+        "name": "E.ROOT-SERVERS.NET",
+        "asn": 7342,
+        "ipv4": "192.203.230.10",
+        "ipv6": "2001:500:a8::e",
+        "category": "root"
+    },
+    {
+        "name": "F.ROOT-SERVERS.NET",
+        "asn": 7342,
+        "ipv4": "192.5.5.241",
+        "ipv6": "2001:500:2f::f",
+        "category": "root"
+    },
+    {
+        "name": "G.ROOT-SERVERS.NET",
+        "asn": 7342,
+        "ipv4": "192.112.36.4",
+        "ipv6": "2001:500:12::d0d",
+        "category": "root"
+    },
+    {
+        "name": "H.ROOT-SERVERS.NET",
+        "asn": 7342,
+        "ipv4": "198.97.190.53",
+        "ipv6": "2001:500:1::53",
+        "category": "root"
+    },
+    {
+        "name": "I.ROOT-SERVERS.NET",
+        "asn": 7342,
+        "ipv4": "192.36.148.17",
+        "ipv6": "2001:7fe::53",
+        "category": "root"
+    },
+    {
+        "name": "J.ROOT-SERVERS.NET",
+        "asn": 7342,
+        "ipv4": "192.58.128.30",
+        "ipv6": "2001:503:c27::2:30",
+        "category": "root"
+    },
+    {
+        "name": "K.ROOT-SERVERS.NET",
+        "asn": 7342,
+        "ipv4": "193.0.14.129",
+        "ipv6": "2001:7fd::1",
+        "category": "root"
+    },
+    {
+        "name": "L.ROOT-SERVERS.NET",
+        "asn": 7342,
+        "ipv4": "199.7.83.42",
+        "ipv6": "2001:500:9f::42",
+        "category": "root"
+    },
+    {
+        "name": "M.ROOT-SERVERS.NET",
+        "asn": 7342,
+        "ipv4": "202.12.27.33",
+        "ipv6": "2001:dc3::35",
+        "category": "root"
+    }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Telstra",
+    "asn": 1221,
+    "ipv4": "203.36.190.1",
+    "ipv6": false,
+    "location": false,
+    "category": "isp"
+  }
+]

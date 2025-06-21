@@ -1,0 +1,194 @@
+# Eranium SmokePing Targets Project
+# Generated on 2025-06-21 11:10:49
+# https://github.com/eranium/smokeping-targets
+
+*** Targets ***
+
+probe = FPing
+menu = Top
+title = Example SmokePing
+remark = Welcome to the Example SmokePing. This page will show more insights about network latency and potential issues. The targets are based on an <a href="https://github.com/eranium/smokeping-targets" target="_blank">open source and community-driven project</a>.
+
+
++ AF
+menu = AF - Africa
+title = AF - Africa
+
+++ ZA
+menu = ZA - South Africa
+title = ZA - South Africa
+
++++ AF-ZA-5713
+menu = Telkom | AS5713
+title = Telkom | AS5713
+host = 20.87.204.157
+
++++ AF-ZA-5713-IPV6
+menu = Telkom | AS5713 IPv6
+title = Telkom | AS5713 IPv6
+probe = FPing6
+host = 2c0e:2008::1
+
+
++ AS
+menu = AS - Asia
+title = AS - Asia
+
+++ IN
+menu = IN - India
+title = IN - India
+
++++ AS-IN-9498
+menu = Bharti Airtel | AS9498
+title = Bharti Airtel | AS9498
+host = 182.71.53.98
+
++++ AS-IN-9498-IPV6
+menu = Bharti Airtel | AS9498 IPv6
+title = Bharti Airtel | AS9498 IPv6
+probe = FPing6
+host = 2404:a800:0:14::1:1010
+
+
++ EU
+menu = EU - Europe
+title = EU - Europe
+
+++ DE
+menu = DE - Germany
+title = DE - Germany
+
++++ EU-DE-3320
+menu = Deutsche Telekom | AS3320
+title = Deutsche Telekom | AS3320
+host = 62.154.17.218
+
++++ EU-DE-3320-IPV6
+menu = Deutsche Telekom | AS3320 IPv6
+title = Deutsche Telekom | AS3320 IPv6
+probe = FPing6
+host = 2a12:6900:1000::1
+
++++ EU-DE-3209
+menu = Vodafone Germany | AS3209
+title = Vodafone Germany | AS3209
+host = 2.200.0.1
+
++++ EU-DE-3209-IPV6
+menu = Vodafone Germany | AS3209 IPv6
+title = Vodafone Germany | AS3209 IPv6
+probe = FPing6
+host = 2a02:8100:c0:1660::1:2
+
++++ EU-DE-6805
+menu = Telefonica Germany (o2) | AS6805
+title = Telefonica Germany (o2) | AS6805
+host = 185.98.140.1
+
++++ EU-DE-6805-IPV6
+menu = Telefonica Germany (o2) | AS6805 IPv6
+title = Telefonica Germany (o2) | AS6805 IPv6
+probe = FPing6
+host = 2a02:3018::8a
+
++++ EU-DE-8881
+menu = 1&1 Versatel Deutschland | AS8881
+title = 1&1 Versatel Deutschland | AS8881
+host = 80.241.192.1
+
++++ EU-DE-8881-IPV6
+menu = 1&1 Versatel Deutschland | AS8881 IPv6
+title = 1&1 Versatel Deutschland | AS8881 IPv6
+probe = FPing6
+host = 2001:1438:2:4::9
+
+++ NL
+menu = NL - Netherlands
+title = NL - Netherlands
+
++++ EU-NL-15435
+menu = DELTA Fiber | AS15435
+title = DELTA Fiber | AS15435
+host = 62.45.0.1
+
++++ EU-NL-1136
+menu = KPN | AS1136
+title = KPN | AS1136
+host = 31.149.0.1
+
++++ EU-NL-1136-IPV6
+menu = KPN | AS1136 IPv6
+title = KPN | AS1136 IPv6
+probe = FPing6
+host = 2a02:a400:8:1::ff02:174
+
++++ EU-NL-50266
+menu = Odido | AS50266
+title = Odido | AS50266
+host = 5.132.0.1
+
++++ EU-NL-50266-IPV6
+menu = Odido | AS50266 IPv6
+title = Odido | AS50266 IPv6
+probe = FPing6
+host = 2a02:4240:5:1000::162
+
++++ EU-NL-33915
+menu = VodafoneZiggo | AS33915
+title = VodafoneZiggo | AS33915
+host = 217.102.208.1
+
++++ EU-NL-33915-IPV6
+menu = VodafoneZiggo | AS33915 IPv6
+title = VodafoneZiggo | AS33915 IPv6
+probe = FPing6
+host = 2a00:18c8:0:1::1:53
+
+
++ NA
+menu = NA - North America
+title = NA - North America
+
+++ US
+menu = US - United States
+title = US - United States
+
++++ NA-US-7018
+menu = AT&T Enterprises | AS7018
+title = AT&T Enterprises | AS7018
+host = 12.0.1.28
+
+
++ OC
+menu = OC - Oceania
+title = OC - Oceania
+
+++ AU
+menu = AU - Australia
+title = AU - Australia
+
++++ OC-AU-1221
+menu = Telstra | AS1221
+title = Telstra | AS1221
+host = 203.36.190.1
+
+
++ SA
+menu = SA - South America
+title = SA - South America
+
+++ BR
+menu = BR - Brazil
+title = BR - Brazil
+
++++ SA-BR-26615
+menu = TIM | AS26615
+title = TIM | AS26615
+host = 152.233.245.129
+
++++ SA-BR-26615-IPV6
+menu = TIM | AS26615 IPv6
+title = TIM | AS26615 IPv6
+probe = FPing6
+host = 2804:214:1c::
+

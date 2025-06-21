@@ -1,0 +1,10 @@
+[
+  {
+    "name": "TIM",
+    "asn": 26615,
+    "ipv4": "152.233.245.129",
+    "ipv6": "2804:214:1c::",
+    "location": false,
+    "category": "isp"
+  }
+]

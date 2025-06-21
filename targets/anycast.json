@@ -1,0 +1,128 @@
+[
+    {
+        "name": "Akamai",
+        "asn": 20940,
+        "ipv4": "www.akamai.com",
+        "ipv6": "www.akamai.com",
+        "category": "anycast"
+    },
+    {
+        "name": "Amazon",
+        "asn": 16509,
+        "ipv4": "99.83.149.1",
+        "ipv6": false,
+        "category": "anycast"
+    },
+    {
+        "name": "Bunny.net",
+        "asn": 200325,
+        "ipv4": "kiki.bunny.net",
+        "ipv6": false,
+        "category": "anycast"
+    },
+    {
+        "name": "CDN77",
+        "asn": 60068,
+        "ipv4": "www.cdn77.com",
+        "ipv6": false,
+        "category": "anycast"
+    },
+    {
+        "name": "CacheFly",
+        "asn": 30081,
+        "ipv4": "www.cachefly.com",
+        "ipv6": false,
+        "category": "anycast"
+    },
+    {
+        "name": "Cisco OpenDNS",
+        "asn": 36692,
+        "ipv4": "208.67.222.222",
+        "ipv6": "2620:119:53::53",
+        "category": "anycast"
+    },
+    {
+        "name": "Cisco Webex",
+        "asn": 13445,
+        "ipv4": "www.webex.com",
+        "ipv6": false,
+        "category": "anycast"
+    },
+    {
+        "name": "Cloudflare",
+        "asn": 13335,
+        "ipv4": "1.1.1.1",
+        "ipv6": "2606:4700:4700::1111",
+        "category": "anycast"
+    },
+    {
+        "name": "Fastly",
+        "asn": 54113,
+        "ipv4": "global.fastly.net",
+        "ipv6": "dualstack.nonssl.global.fastly.net",
+        "category": "anycast"
+    },
+    {
+        "name": "G-Core Labs",
+        "asn": 199524,
+        "ipv4": "ns1.gcorelabs.net",
+        "ipv6": "ns1.gcorelabs.net",
+        "category": "anycast"
+    },
+    {
+        "name": "Google API",
+        "asn": 15169,
+        "ipv4": "www.googleapis.com",
+        "ipv6": "www.googleapis.com",
+        "category": "anycast"
+    },
+    {
+        "name": "Google DNS",
+        "asn": 15169,
+        "ipv4": "8.8.8.8",
+        "ipv6": "2001:4860:4860::8888",
+        "category": "anycast"
+    },
+    {
+        "name": "Google Drive",
+        "asn": 15169,
+        "ipv4": "drive.google.com",
+        "ipv6": false,
+        "category": "anycast"
+    },
+    {
+        "name": "Incapsula",
+        "asn": 19551,
+        "ipv4": "www.incapsula.com",
+        "ipv6": false,
+        "category": "anycast"
+    },
+    {
+        "name": "Meta",
+        "asn": 32934,
+        "ipv4": "www.facebook.com",
+        "ipv6": "www.facebook.com",
+        "category": "anycast"
+    },
+    {
+        "name": "Microsoft",
+        "asn": 8068,
+        "ipv4": "www.office.com",
+        "ipv6": "www.office.com",
+        "category": "anycast"
+    },
+    {
+        "name": "Quad9",
+        "asn": 19281,
+        "ipv4": "9.9.9.9",
+        "ipv6": "2620:fe::fe",
+        "category": "anycast"
+    },
+    {
+        "name": "WordPress",
+        "asn": 2635,
+        "ipv4": "ns1.wordpress.com",
+        "ipv6": false,
+        "category": "anycast"
+    }
+]

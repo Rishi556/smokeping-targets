@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Telkom",
+    "asn": 5713,
+    "ipv4": "20.87.204.157",
+    "ipv6": "2c0e:2008::1",
+    "location": false,
+    "category": "isp"
+  }
+]

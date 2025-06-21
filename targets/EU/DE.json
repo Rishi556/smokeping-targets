@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Deutsche Telekom",
+        "asn": 3320,
+        "ipv4": "62.154.17.218",
+        "ipv6": "2a12:6900:1000::1",
+        "location": "Frankfurt",
+        "category": "isp"
+    },
+    {
+        "name": "Vodafone Germany",
+        "asn": 3209,
+        "ipv4": "2.200.0.1",
+        "ipv6": "2a02:8100:c0:1660::1:2",
+        "location": false,
+        "category": "isp"
+    },
+    {
+        "name": "Telefonica Germany (o2)",
+        "asn": 6805,
+        "ipv4": "185.98.140.1",
+        "ipv6": "2a02:3018::8a",
+        "location": false,
+        "category": "isp"
+    },
+    {
+        "name": "1&1 Versatel Deutschland",
+        "asn": 8881,
+        "ipv4": "80.241.192.1",
+        "ipv6": "2001:1438:2:4::9",
+        "location": false,
+        "category": "isp"
+    }
+]
