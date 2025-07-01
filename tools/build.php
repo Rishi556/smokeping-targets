@@ -36,6 +36,7 @@ class Targets
     public static function default(array $data): void
     {
         $countries = json_decode(file_get_contents(__DIR__.'/countries.json'), true);
+        $smokePings = '# SmokePing Instances'.PHP_EOL.'| Network | ASN | Continent | Country | City | SmokePing |'.PHP_EOL.'|:---:|---|---|---|---|---|'.PHP_EOL;
         $targetConfig = '# Eranium SmokePing Targets Project'.PHP_EOL.'# Generated on '.date('Y-m-d H:i:s').PHP_EOL.'# https://github.com/eranium/smokeping-targets'.PHP_EOL.PHP_EOL;
         $targetConfig .= '*** Targets ***'.PHP_EOL.PHP_EOL.'probe = FPing'.PHP_EOL.'menu = Top'.PHP_EOL.'title = '.($_SERVER['argv'][2] ?? 'Example').' SmokePing'.PHP_EOL.'remark = Welcome to the '.($_SERVER['argv'][2] ?? 'Example').' SmokePing. This page will show more insights about network latency and potential issues. The targets are based on an <a href="https://github.com/eranium/smokeping-targets" target="_blank">open source and community-driven project</a>.'.PHP_EOL.PHP_EOL;
         foreach ($data as $continentCode => $continent) {
@@ -58,10 +59,14 @@ class Targets
                         $targetConfig .= 'probe = FPing6'.PHP_EOL;
                         $targetConfig .= 'host = '.$targets['ipv6'].PHP_EOL.PHP_EOL;
                     }
+                    if ($targets['smokeping'] ?? false) {
+                        $smokePings .= '|'.$targets['name'].'|'.$targets['asn'].'|'.$continentCode.'|'.$countryCode.'|'.$targets['location'].'|'.$targets['smokeping'].'|'.PHP_EOL;
+                    }
                 }
             }
         }
         file_put_contents(__DIR__.'/../config/Targets', $targetConfig);
+        file_put_contents(__DIR__.'/../INSTANCES.md', $smokePings);
     }
 
     private static function continentName(string $continentCode): string

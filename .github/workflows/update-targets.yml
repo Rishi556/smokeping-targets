@@ -3,7 +3,7 @@ run-name: ${{ github.workflow }} run by ${{ github.actor }}
 permissions:
   contents: write
 on:
-  push:
+  pull_request:
     branches:
       - main
 jobs:
@@ -19,6 +19,6 @@ jobs:
       - name: git config user.email
         run: git config user.email "github-actions@eranium.io"        
       - name: git commit config/Targets
-        run: git commit -m 'auto-update config/Targets' config/Targets
+        run: git commit -m 'Auto generate Targets file' config/Targets
       - name: git push origin HEAD
         run: git push origin HEAD     
