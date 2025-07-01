@@ -1,7 +1,7 @@
 name: Update Targets
 run-name: ${{ github.workflow }} run by ${{ github.actor }}
 permissions:
-  actions: write
+  contents: write
 on:
   push:
     branches:
