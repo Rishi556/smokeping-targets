@@ -1,0 +1,22 @@
+name: Update Targets
+run-name: ${{ github.workflow }} run by ${{ github.actor }}
+on:
+  push:
+    branches:
+      - main
+jobs:
+  github-action-job:
+    runs-on: ubuntu-latest
+    steps:      
+      - name: Checking out the repository code
+        uses: actions/checkout@v4
+      - name: Build targets
+        run: php tools/build.php default
+      - name: git config user.name
+        run: git config user.name "github-actions"
+      - name: git config user.email
+        run: git config user.email "github-actions@eranium.io"        
+      - name: git commit config/Targets
+        run: git commit -m 'auto-update config/Targets' config/Targets
+      - name: git push origin HEAD
+        run: git push origin HEAD     
